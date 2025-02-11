@@ -141,7 +141,7 @@ if uploaded_file:
             notif_color = "gold"
         else:
             notif_color = "red"
-        st.markdown(f"<h4 style='color:{notif_color};'>Notification Date: {notification_date}</h4>", unsafe_allow_html=True)
+        st.markdown(f"<h4 style='color:{notif_color};'>20 Working Day Period Starts: {notification_date}</h4>", unsafe_allow_html=True)
 
         # Calculate the week start (Monday) for the selected deadline date.
         input_week_start = input_date - timedelta(days=input_date.weekday())
